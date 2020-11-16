@@ -1,0 +1,38 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/logo64.png"
+   },
+   "commands": {
+      "toggle-capture": {
+         "description": "__MSG_toggleCapture__",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "externally_connectable": {
+      "ids": [ "*" ]
+   },
+   "icons": {
+      "128": "images/logo128.png",
+      "32": "images/logo32.png",
+      "64": "images/logo64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxSIb6zh410ps/kyGVR/eZDQC1gfO/nv5PwtS3GBOJRlz4V/mXa/RowNl/deaHvjLsud8y1IjI398Qy+/9Qyyqhux1Joq59Mjc37Wb4Nn39/jKQARwL4BjLuQL7FwT2Bd77f2xGRopNZcqo7NJPB1lkWqjrytMDZgYsMCjAmJG8tuoeIxv7kHEiEE1a+rgcni9xvI8UFETQjAB0jZeaN8WVR8pE1OOez6RVoyiNOEHg9hIjzONoi3S/Rr5zTCcGbZ233vcgxClSx/35Fw2R+VwNcSEA2cfqpNVoXm/IzjkOhTsl2lJ31vfL1THddlhHXCQlCDGtmydH9yaCS3Ok/TCwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "70.0.0",
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "permissions": [ "cookies", "tabs", "notifications", "contextMenus", "downloads", "\u003Call_urls>", "storage" ],
+   "short_name": "Aria2 WebUI",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.5.0",
+   "web_accessible_resources": [ "js/magnet.js", "magnet.html" ]
+}

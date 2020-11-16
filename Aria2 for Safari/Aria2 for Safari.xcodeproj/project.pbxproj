@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1BA89FC25623B3F0082C3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA89FB25623B3F0082C3B3 /* AppDelegate.swift */; };
+		C1BA89FF25623B3F0082C3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BA89FD25623B3F0082C3B3 /* Main.storyboard */; };
+		C1BA8A0125623B3F0082C3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA8A0025623B3F0082C3B3 /* ViewController.swift */; };
+		C1BA8A0325623B400082C3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A0225623B400082C3B3 /* Assets.xcassets */; };
+		C1BA8A0A25623B400082C3B3 /* Aria2 for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1BA8A0925623B400082C3B3 /* Aria2 for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1BA8A0F25623B400082C3B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BA8A0E25623B400082C3B3 /* Cocoa.framework */; };
+		C1BA8A1225623B400082C3B3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA8A1125623B400082C3B3 /* SafariWebExtensionHandler.swift */; };
+		C1BA8A2D25623B410082C3B3 /* ui in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A1F25623B410082C3B3 /* ui */; };
+		C1BA8A2E25623B410082C3B3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2025623B410082C3B3 /* LICENSE */; };
+		C1BA8A2F25623B410082C3B3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2125623B410082C3B3 /* background.js */; };
+		C1BA8A3025623B410082C3B3 /* css in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2225623B410082C3B3 /* css */; };
+		C1BA8A3125623B410082C3B3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2325623B410082C3B3 /* images */; };
+		C1BA8A3225623B410082C3B3 /* js in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2425623B410082C3B3 /* js */; };
+		C1BA8A3325623B410082C3B3 /* magnet.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2525623B410082C3B3 /* magnet.html */; };
+		C1BA8A3425623B410082C3B3 /* acknowledgment.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2625623B410082C3B3 /* acknowledgment.txt */; };
+		C1BA8A3525623B410082C3B3 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2725623B410082C3B3 /* _metadata */; };
+		C1BA8A3625623B410082C3B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2825623B410082C3B3 /* README.md */; };
+		C1BA8A3725623B410082C3B3 /* img in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2925623B410082C3B3 /* img */; };
+		C1BA8A3825623B410082C3B3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2A25623B410082C3B3 /* manifest.json */; };
+		C1BA8A3925623B410082C3B3 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2B25623B410082C3B3 /* options.html */; };
+		C1BA8A3A25623B410082C3B3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C1BA8A2C25623B410082C3B3 /* _locales */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1BA8A0B25623B400082C3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BA89EF25623B3F0082C3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BA8A0825623B400082C3B3;
+			remoteInfo = "Aria2 for Edge Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1BA8A1A25623B400082C3B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1BA8A0A25623B400082C3B3 /* Aria2 for Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1BA89F725623B3F0082C3B3 /* Aria2 for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aria2 for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BA89FA25623B3F0082C3B3 /* Aria2_for_Edge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aria2_for_Edge.entitlements; sourceTree = "<group>"; };
+		C1BA89FB25623B3F0082C3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1BA89FE25623B3F0082C3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1BA8A0025623B3F0082C3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1BA8A0225623B400082C3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BA8A0425623B400082C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BA8A0925623B400082C3B3 /* Aria2 for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Aria2 for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BA8A0E25623B400082C3B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C1BA8A1125623B400082C3B3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C1BA8A1325623B400082C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BA8A1425623B400082C3B3 /* Aria2_for_Edge_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aria2_for_Edge_Extension.entitlements; sourceTree = "<group>"; };
+		C1BA8A1F25623B410082C3B3 /* ui */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ui; path = Resources/ui; sourceTree = "<group>"; };
+		C1BA8A2025623B410082C3B3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = Resources/LICENSE; sourceTree = "<group>"; };
+		C1BA8A2125623B410082C3B3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		C1BA8A2225623B410082C3B3 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = Resources/css; sourceTree = "<group>"; };
+		C1BA8A2325623B410082C3B3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		C1BA8A2425623B410082C3B3 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = Resources/js; sourceTree = "<group>"; };
+		C1BA8A2525623B410082C3B3 /* magnet.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = magnet.html; path = Resources/magnet.html; sourceTree = "<group>"; };
+		C1BA8A2625623B410082C3B3 /* acknowledgment.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = acknowledgment.txt; path = Resources/acknowledgment.txt; sourceTree = "<group>"; };
+		C1BA8A2725623B410082C3B3 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
+		C1BA8A2825623B410082C3B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Resources/README.md; sourceTree = "<group>"; };
+		C1BA8A2925623B410082C3B3 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
+		C1BA8A2A25623B410082C3B3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		C1BA8A2B25623B410082C3B3 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		C1BA8A2C25623B410082C3B3 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BA89F425623B3F0082C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BA8A0625623B400082C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BA8A0F25623B400082C3B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1BA89EE25623B3F0082C3B3 = {
+			isa = PBXGroup;
+			children = (
+				C1BA89F925623B3F0082C3B3 /* Aria2 for Edge */,
+				C1BA8A1025623B400082C3B3 /* Aria2 for Edge Extension */,
+				C1BA8A0D25623B400082C3B3 /* Frameworks */,
+				C1BA89F825623B3F0082C3B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BA89F825623B3F0082C3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA89F725623B3F0082C3B3 /* Aria2 for Safari.app */,
+				C1BA8A0925623B400082C3B3 /* Aria2 for Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BA89F925623B3F0082C3B3 /* Aria2 for Edge */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA89FA25623B3F0082C3B3 /* Aria2_for_Edge.entitlements */,
+				C1BA89FB25623B3F0082C3B3 /* AppDelegate.swift */,
+				C1BA89FD25623B3F0082C3B3 /* Main.storyboard */,
+				C1BA8A0025623B3F0082C3B3 /* ViewController.swift */,
+				C1BA8A0225623B400082C3B3 /* Assets.xcassets */,
+				C1BA8A0425623B400082C3B3 /* Info.plist */,
+			);
+			path = "Aria2 for Edge";
+			sourceTree = "<group>";
+		};
+		C1BA8A0D25623B400082C3B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA8A0E25623B400082C3B3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1BA8A1025623B400082C3B3 /* Aria2 for Edge Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA8A1E25623B410082C3B3 /* Resources */,
+				C1BA8A1125623B400082C3B3 /* SafariWebExtensionHandler.swift */,
+				C1BA8A1325623B400082C3B3 /* Info.plist */,
+				C1BA8A1425623B400082C3B3 /* Aria2_for_Edge_Extension.entitlements */,
+			);
+			path = "Aria2 for Edge Extension";
+			sourceTree = "<group>";
+		};
+		C1BA8A1E25623B410082C3B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA8A1F25623B410082C3B3 /* ui */,
+				C1BA8A2025623B410082C3B3 /* LICENSE */,
+				C1BA8A2125623B410082C3B3 /* background.js */,
+				C1BA8A2225623B410082C3B3 /* css */,
+				C1BA8A2325623B410082C3B3 /* images */,
+				C1BA8A2425623B410082C3B3 /* js */,
+				C1BA8A2525623B410082C3B3 /* magnet.html */,
+				C1BA8A2625623B410082C3B3 /* acknowledgment.txt */,
+				C1BA8A2725623B410082C3B3 /* _metadata */,
+				C1BA8A2825623B410082C3B3 /* README.md */,
+				C1BA8A2925623B410082C3B3 /* img */,
+				C1BA8A2A25623B410082C3B3 /* manifest.json */,
+				C1BA8A2B25623B410082C3B3 /* options.html */,
+				C1BA8A2C25623B410082C3B3 /* _locales */,
+			);
+			name = Resources;
+			path = "Aria2 for Edge Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BA89F625623B3F0082C3B3 /* Aria2 for Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BA8A1B25623B400082C3B3 /* Build configuration list for PBXNativeTarget "Aria2 for Safari" */;
+			buildPhases = (
+				C1BA89F325623B3F0082C3B3 /* Sources */,
+				C1BA89F425623B3F0082C3B3 /* Frameworks */,
+				C1BA89F525623B3F0082C3B3 /* Resources */,
+				C1BA8A1A25623B400082C3B3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BA8A0C25623B400082C3B3 /* PBXTargetDependency */,
+			);
+			name = "Aria2 for Safari";
+			productName = "Aria2 for Edge";
+			productReference = C1BA89F725623B3F0082C3B3 /* Aria2 for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BA8A0825623B400082C3B3 /* Aria2 for Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BA8A1725623B400082C3B3 /* Build configuration list for PBXNativeTarget "Aria2 for Safari Extension" */;
+			buildPhases = (
+				C1BA8A0525623B400082C3B3 /* Sources */,
+				C1BA8A0625623B400082C3B3 /* Frameworks */,
+				C1BA8A0725623B400082C3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aria2 for Safari Extension";
+			productName = "Aria2 for Edge Extension";
+			productReference = C1BA8A0925623B400082C3B3 /* Aria2 for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BA89EF25623B3F0082C3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C1BA89F625623B3F0082C3B3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C1BA8A0825623B400082C3B3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C1BA89F225623B3F0082C3B3 /* Build configuration list for PBXProject "Aria2 for Safari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BA89EE25623B3F0082C3B3;
+			productRefGroup = C1BA89F825623B3F0082C3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BA89F625623B3F0082C3B3 /* Aria2 for Safari */,
+				C1BA8A0825623B400082C3B3 /* Aria2 for Safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BA89F525623B3F0082C3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BA8A0325623B400082C3B3 /* Assets.xcassets in Resources */,
+				C1BA89FF25623B3F0082C3B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BA8A0725623B400082C3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BA8A3125623B410082C3B3 /* images in Resources */,
+				C1BA8A3225623B410082C3B3 /* js in Resources */,
+				C1BA8A3925623B410082C3B3 /* options.html in Resources */,
+				C1BA8A3625623B410082C3B3 /* README.md in Resources */,
+				C1BA8A3325623B410082C3B3 /* magnet.html in Resources */,
+				C1BA8A3825623B410082C3B3 /* manifest.json in Resources */,
+				C1BA8A3425623B410082C3B3 /* acknowledgment.txt in Resources */,
+				C1BA8A3025623B410082C3B3 /* css in Resources */,
+				C1BA8A2E25623B410082C3B3 /* LICENSE in Resources */,
+				C1BA8A3725623B410082C3B3 /* img in Resources */,
+				C1BA8A3525623B410082C3B3 /* _metadata in Resources */,
+				C1BA8A2F25623B410082C3B3 /* background.js in Resources */,
+				C1BA8A3A25623B410082C3B3 /* _locales in Resources */,
+				C1BA8A2D25623B410082C3B3 /* ui in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BA89F325623B3F0082C3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BA8A0125623B3F0082C3B3 /* ViewController.swift in Sources */,
+				C1BA89FC25623B3F0082C3B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BA8A0525623B400082C3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BA8A1225623B400082C3B3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BA8A0C25623B400082C3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BA8A0825623B400082C3B3 /* Aria2 for Safari Extension */;
+			targetProxy = C1BA8A0B25623B400082C3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1BA89FD25623B3F0082C3B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BA89FE25623B3F0082C3B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1BA8A1525623B400082C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1BA8A1625623B400082C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C1BA8A1825623B400082C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Aria2 for Edge Extension/Aria2_for_Edge_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "Aria2 for Edge Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lizeyan.Aria2-for-Safari-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1BA8A1925623B400082C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Aria2 for Edge Extension/Aria2_for_Edge_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "Aria2 for Edge Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lizeyan.Aria2-for-Safari-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C1BA8A1C25623B400082C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aria2 for Edge/Aria2_for_Edge.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "Aria2 for Edge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lizeyan.Aria2-for-Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1BA8A1D25623B400082C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aria2 for Edge/Aria2_for_Edge.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "Aria2 for Edge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lizeyan.Aria2-for-Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BA89F225623B3F0082C3B3 /* Build configuration list for PBXProject "Aria2 for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BA8A1525623B400082C3B3 /* Debug */,
+				C1BA8A1625623B400082C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BA8A1725623B400082C3B3 /* Build configuration list for PBXNativeTarget "Aria2 for Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BA8A1825623B400082C3B3 /* Debug */,
+				C1BA8A1925623B400082C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BA8A1B25623B400082C3B3 /* Build configuration list for PBXNativeTarget "Aria2 for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BA8A1C25623B400082C3B3 /* Debug */,
+				C1BA8A1D25623B400082C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BA89EF25623B3F0082C3B3 /* Project object */;
+}

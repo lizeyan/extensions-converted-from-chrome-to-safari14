@@ -1,0 +1,137 @@
+{
+   "BlackListStr": {
+      "message": "Block-list"
+   },
+   "WebUIOpenStyle1": {
+      "message": "Popup"
+   },
+   "WebUIOpenStyle2": {
+      "message": "New tab"
+   },
+   "WebUIOpenStyle3": {
+      "message": "New window"
+   },
+   "WebUIOpenStyleStr": {
+      "message": "AriaNG Open in"
+   },
+   "addToBlackListStr": {
+      "message": "Current URL -> Block-list"
+   },
+   "addToWhiteListStr": {
+      "message": "Current URL -> Allow-List"
+   },
+   "allowExternalRequestDes": {
+      "message": "Receive download request from other extension"
+   },
+   "allowNotificationDes": {
+      "message": "Enable capture notification"
+   },
+   "appName": {
+      "message": "Aria2 for Edge"
+   },
+   "askBeforeDownloadDes": {
+      "message": "Ask detail settings before auto download"
+   },
+   "captureFinalUrlDes": {
+      "message": "Capture the final URL to exclude multi-redirect"
+   },
+   "captureMagnetDes": {
+      "message": "Capture magnet link"
+   },
+   "configCloudSync": {
+      "message": "Cloud Sync"
+   },
+   "configCloudSyncDes": {
+      "message": "Sync AriaNg and extension config to current logged-in Microsoft account"
+   },
+   "configPageTitle": {
+      "message": "Extension Option Settings"
+   },
+   "contextmenuDes": {
+      "message": "Export task from context menu"
+   },
+   "contextmenuStr": {
+      "message": "Context Menu"
+   },
+   "contextmenuTitle": {
+      "message": "Export to "
+   },
+   "description": {
+      "message": "Speed up your downloads with Aria2，manage your download tasks easily."
+   },
+   "download": {
+      "message": "Download"
+   },
+   "downloadCaptureDes": {
+      "message": "Enable auto capture when download file size ≥"
+   },
+   "downloadCaptureStr": {
+      "message": "Download Capture"
+   },
+   "downloadConfigFailed": {
+      "message": "Download config failed: Data invalid or network disconnected "
+   },
+   "downloadConfigSucceed": {
+      "message": "Download config successful"
+   },
+   "exportFailedDes": {
+      "message": "Could not connect to Aria2, task export failed!"
+   },
+   "exportFailedStr": {
+      "message": "Export Failed"
+   },
+   "exportSucceedDes": {
+      "message": "\nDownload task is beginning."
+   },
+   "exportSucceedStr": {
+      "message": "Export Successful"
+   },
+   "fileExtPlaceholderDes": {
+      "message": "one file extension per line, * means all"
+   },
+   "fileExtStr": {
+      "message": "File Extension"
+   },
+   "finish": {
+      "message": "Finish"
+   },
+   "monitorAria2Str": {
+      "message": "Monitor Aria2 state"
+   },
+   "openWebUIStr": {
+      "message": "Open AriaNG"
+   },
+   "removeFromBlackListStr": {
+      "message": "Remove from Block-List"
+   },
+   "removeFromWhiteListStr": {
+      "message": "Remove from Allow-List"
+   },
+   "toggleCapture": {
+      "message": "Toggle download capture"
+   },
+   "upload": {
+      "message": "Upload"
+   },
+   "uploadConfigFailed": {
+      "message": "Upload config failed: "
+   },
+   "uploadConfigSucceed": {
+      "message": "Upload config successful"
+   },
+   "uploadConfigWarn": {
+      "message": "Invalid or empty local config data, still continue?"
+   },
+   "wait": {
+      "message": "Wait"
+   },
+   "websitePlaceholderDes": {
+      "message": "one website per line, supports regexp."
+   },
+   "websiteStr": {
+      "message": "Website"
+   },
+   "whiteListStr": {
+      "message": "Allow-list"
+   }
+}

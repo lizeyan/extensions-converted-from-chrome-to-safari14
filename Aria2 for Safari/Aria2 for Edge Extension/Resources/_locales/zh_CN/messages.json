@@ -1,0 +1,137 @@
+{
+   "BlackListStr": {
+      "message": "黑名单"
+   },
+   "WebUIOpenStyle1": {
+      "message": "弹窗"
+   },
+   "WebUIOpenStyle2": {
+      "message": "新标签页"
+   },
+   "WebUIOpenStyle3": {
+      "message": "新窗口"
+   },
+   "WebUIOpenStyleStr": {
+      "message": "AriaNG打开方式"
+   },
+   "addToBlackListStr": {
+      "message": "当前网站->黑名单"
+   },
+   "addToWhiteListStr": {
+      "message": "当前网站->白名单"
+   },
+   "allowExternalRequestDes": {
+      "message": "接受来自其他扩展的下载请求"
+   },
+   "allowNotificationDes": {
+      "message": "启用拦截通知"
+   },
+   "appName": {
+      "message": "Aria2 for Edge"
+   },
+   "askBeforeDownloadDes": {
+      "message": "自动下载前询问详细设置"
+   },
+   "captureFinalUrlDes": {
+      "message": "拦截最终下载地址 （排除多重跳转导致下载不正常的情况）"
+   },
+   "captureMagnetDes": {
+      "message": "拦截磁力链接"
+   },
+   "configCloudSync": {
+      "message": "配置云端同步"
+   },
+   "configCloudSyncDes": {
+      "message": "同步AriaNG和扩展配置到当前登陆的微软账号"
+   },
+   "configPageTitle": {
+      "message": "扩展配置页面"
+   },
+   "contextmenuDes": {
+      "message": "右键导出下載"
+   },
+   "contextmenuStr": {
+      "message": "右键菜单"
+   },
+   "contextmenuTitle": {
+      "message": "导出到 "
+   },
+   "description": {
+      "message": "让Aria2无缝接管下载，加速下载体验，内建Aria2前端，任务管理更方便。"
+   },
+   "download": {
+      "message": "下载"
+   },
+   "downloadCaptureDes": {
+      "message": "自动拦截下载任务到Aria2，当文件大小 ≥"
+   },
+   "downloadCaptureStr": {
+      "message": "下载拦截"
+   },
+   "downloadConfigFailed": {
+      "message": "下载配置失败：云端数据无效或无网络连接"
+   },
+   "downloadConfigSucceed": {
+      "message": "下载配置成功"
+   },
+   "exportFailedDes": {
+      "message": "\n无法连接到Aria2,导出下载任务失败!"
+   },
+   "exportFailedStr": {
+      "message": "导出失败"
+   },
+   "exportSucceedDes": {
+      "message": "\nAria2已经开始任务下载。"
+   },
+   "exportSucceedStr": {
+      "message": "导出成功"
+   },
+   "fileExtPlaceholderDes": {
+      "message": "每行一个扩展名，* 代表所有。"
+   },
+   "fileExtStr": {
+      "message": "扩展名"
+   },
+   "finish": {
+      "message": "结束"
+   },
+   "monitorAria2Str": {
+      "message": "监测Aria2状态"
+   },
+   "openWebUIStr": {
+      "message": "打开AriaNG"
+   },
+   "removeFromBlackListStr": {
+      "message": "移出黑名单"
+   },
+   "removeFromWhiteListStr": {
+      "message": "移出白名单"
+   },
+   "toggleCapture": {
+      "message": "开关下载自动拦截"
+   },
+   "upload": {
+      "message": "上传"
+   },
+   "uploadConfigFailed": {
+      "message": "上传配置失败: "
+   },
+   "uploadConfigSucceed": {
+      "message": "上传配置成功"
+   },
+   "uploadConfigWarn": {
+      "message": "本地配置为空或无效，仍然继续？"
+   },
+   "wait": {
+      "message": "等待"
+   },
+   "websitePlaceholderDes": {
+      "message": "每行一个网站，支持正则表达式。"
+   },
+   "websiteStr": {
+      "message": "网站"
+   },
+   "whiteListStr": {
+      "message": "白名单"
+   }
+}
