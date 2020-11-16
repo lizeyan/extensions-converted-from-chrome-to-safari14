@@ -1,0 +1,198 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	margin: 1em 0 0 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0.33em 0;
+	text-align: justify;
+}
+
+/* FIXES */
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1px;
+}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/* General classes */
+
+.hidden { 
+	display: none;
+}
+
+.iconfont:before {
+	vertical-align: -.075em;
+}
+
+/* Main */
+
+#level {
+	border: 0px none;
+	margin: 0;
+	display: block;
+	width: 500px;
+	height: 100px;
+	outline: 0;
+}
+
+
+#no_webgl {
+	display: none;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #900;
+	margin: 1em;
+	min-width: 500px;
+}
+
+#level_disabled {
+	position: absolute;	
+	width: 500px;
+	line-height: 100px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	z-index: 1000;
+	text-shadow: 0 0 .25em #ddd;
+	cursor: default;
+	display: none;
+}
+
+#notice {
+	text-align: center;
+	margin-bottom: 1em;
+	color: #cca500;
+	/*height: 1.5em;*/
+	font-size: .9em;
+	font-weight: bold;
+}
+
+/* Settings */
+
+#settings {
+	display: none;
+	border-top: 1px solid #eee;
+	padding: 1em;
+	font-size: 0.8em;
+}
+
+.checklist {
+	margin-left: 25%;
+}
+.check {
+	display: block;
+	transition: color 0.5s ease;
+	margin-bottom: .5em;
+}
+.check:hover {
+	color: #833;
+}
+.check.disabled,
+.check.disabled:hover {	
+	color: #ddd;
+}
+.check input {
+	margin: 0 0 .1em 0;
+	vertical-align: bottom;
+	padding: 0;
+	cursor: pointer;
+}
+.check label {
+	margin: 0 1em 0 0;
+	cursor: pointer;
+}
+
+.buffer_size {
+	border-top: 1px solid #eee;
+	margin: 1.5em 0 0 0;
+	padding-top: 1em;
+}
+
+.buffer_size .select {
+	margin: 1em 0 1em 25%;
+}
+
+.buffer_size h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1;
+}
+
+/* Footer */
+
+#footer {
+	/*margin-top: .7em;*/
+	transition: color 1s ease;
+	background-color: #fafafa;
+	border-top: 1px solid #f5f5f5;
+	padding: .2em .5em;
+	text-align: left;
+	font-size: .7em;
+	text-transform: uppercase;
+}
+
+#footer a {
+	transition: color 0.5s ease;
+}
+
+#feedback_link,
+#help_link,
+#settings_link {
+	color: #aaa;
+	margin: 0;
+}
+
+#feedback_link:hover,
+#help_link:hover,
+#settings_link:hover {
+	color: #888;
+}
+
+.icon-arrow-up:before {
+	vertical-align: .05em;
+}
+
+#footer .iconfont {
+	margin: 0 .25em;
+}
+
+#footer .link_sep {
+	margin: 0 1.5em 0 1em;
+	border-left: 1px solid #aaa;
+}
+
+#copy {	
+	float: right;
+	color: #ccc;
+}
+
+#copy:hover {
+	color: #aaa;
+}

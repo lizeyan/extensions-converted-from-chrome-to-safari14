@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E65C9E25624BFB0076683A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E65C9D25624BFB0076683A /* AppDelegate.swift */; };
+		C1E65CA125624BFB0076683A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E65C9F25624BFB0076683A /* Main.storyboard */; };
+		C1E65CA325624BFB0076683A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E65CA225624BFB0076683A /* ViewController.swift */; };
+		C1E65CA525624BFC0076683A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CA425624BFC0076683A /* Assets.xcassets */; };
+		C1E65CAC25624BFC0076683A /* EarSoft Level Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1E65CAB25624BFC0076683A /* EarSoft Level Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1E65CB125624BFC0076683A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E65CB025624BFC0076683A /* Cocoa.framework */; };
+		C1E65CB425624BFC0076683A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E65CB325624BFC0076683A /* SafariWebExtensionHandler.swift */; };
+		C1E65CCC25624BFD0076683A /* background.htm in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC125624BFD0076683A /* background.htm */; };
+		C1E65CCD25624BFD0076683A /* css in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC225624BFD0076683A /* css */; };
+		C1E65CCE25624BFD0076683A /* images in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC325624BFD0076683A /* images */; };
+		C1E65CCF25624BFD0076683A /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC425624BFD0076683A /* _metadata */; };
+		C1E65CD025624BFD0076683A /* iconfont in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC525624BFD0076683A /* iconfont */; };
+		C1E65CD125624BFD0076683A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC625624BFD0076683A /* icons */; };
+		C1E65CD225624BFD0076683A /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC725624BFD0076683A /* scripts */; };
+		C1E65CD325624BFD0076683A /* level-api in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC825624BFD0076683A /* level-api */; };
+		C1E65CD425624BFD0076683A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CC925624BFD0076683A /* manifest.json */; };
+		C1E65CD525624BFD0076683A /* help.htm in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CCA25624BFD0076683A /* help.htm */; };
+		C1E65CD625624BFD0076683A /* popup.htm in Resources */ = {isa = PBXBuildFile; fileRef = C1E65CCB25624BFD0076683A /* popup.htm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1E65CAD25624BFC0076683A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E65C9125624BFB0076683A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E65CAA25624BFC0076683A;
+			remoteInfo = "EarSoft Level Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1E65CBC25624BFC0076683A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1E65CAC25624BFC0076683A /* EarSoft Level Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1E65C9925624BFB0076683A /* EarSoft Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EarSoft Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E65C9C25624BFB0076683A /* EarSoft_Level.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EarSoft_Level.entitlements; sourceTree = "<group>"; };
+		C1E65C9D25624BFB0076683A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1E65CA025624BFB0076683A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E65CA225624BFB0076683A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1E65CA425624BFC0076683A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E65CA625624BFC0076683A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E65CAB25624BFC0076683A /* EarSoft Level Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EarSoft Level Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E65CB025624BFC0076683A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C1E65CB325624BFC0076683A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C1E65CB525624BFC0076683A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E65CB625624BFC0076683A /* EarSoft_Level_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EarSoft_Level_Extension.entitlements; sourceTree = "<group>"; };
+		C1E65CC125624BFD0076683A /* background.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.htm; path = Resources/background.htm; sourceTree = "<group>"; };
+		C1E65CC225624BFD0076683A /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = Resources/css; sourceTree = "<group>"; };
+		C1E65CC325624BFD0076683A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		C1E65CC425624BFD0076683A /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
+		C1E65CC525624BFD0076683A /* iconfont */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iconfont; path = Resources/iconfont; sourceTree = "<group>"; };
+		C1E65CC625624BFD0076683A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		C1E65CC725624BFD0076683A /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = Resources/scripts; sourceTree = "<group>"; };
+		C1E65CC825624BFD0076683A /* level-api */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "level-api"; path = "Resources/level-api"; sourceTree = "<group>"; };
+		C1E65CC925624BFD0076683A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		C1E65CCA25624BFD0076683A /* help.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = help.htm; path = Resources/help.htm; sourceTree = "<group>"; };
+		C1E65CCB25624BFD0076683A /* popup.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.htm; path = Resources/popup.htm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E65C9625624BFB0076683A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E65CA825624BFC0076683A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E65CB125624BFC0076683A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E65C9025624BFB0076683A = {
+			isa = PBXGroup;
+			children = (
+				C1E65C9B25624BFB0076683A /* EarSoft Level */,
+				C1E65CB225624BFC0076683A /* EarSoft Level Extension */,
+				C1E65CAF25624BFC0076683A /* Frameworks */,
+				C1E65C9A25624BFB0076683A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E65C9A25624BFB0076683A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E65C9925624BFB0076683A /* EarSoft Level.app */,
+				C1E65CAB25624BFC0076683A /* EarSoft Level Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E65C9B25624BFB0076683A /* EarSoft Level */ = {
+			isa = PBXGroup;
+			children = (
+				C1E65C9C25624BFB0076683A /* EarSoft_Level.entitlements */,
+				C1E65C9D25624BFB0076683A /* AppDelegate.swift */,
+				C1E65C9F25624BFB0076683A /* Main.storyboard */,
+				C1E65CA225624BFB0076683A /* ViewController.swift */,
+				C1E65CA425624BFC0076683A /* Assets.xcassets */,
+				C1E65CA625624BFC0076683A /* Info.plist */,
+			);
+			path = "EarSoft Level";
+			sourceTree = "<group>";
+		};
+		C1E65CAF25624BFC0076683A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E65CB025624BFC0076683A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E65CB225624BFC0076683A /* EarSoft Level Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1E65CC025624BFD0076683A /* Resources */,
+				C1E65CB325624BFC0076683A /* SafariWebExtensionHandler.swift */,
+				C1E65CB525624BFC0076683A /* Info.plist */,
+				C1E65CB625624BFC0076683A /* EarSoft_Level_Extension.entitlements */,
+			);
+			path = "EarSoft Level Extension";
+			sourceTree = "<group>";
+		};
+		C1E65CC025624BFD0076683A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1E65CC125624BFD0076683A /* background.htm */,
+				C1E65CC225624BFD0076683A /* css */,
+				C1E65CC325624BFD0076683A /* images */,
+				C1E65CC425624BFD0076683A /* _metadata */,
+				C1E65CC525624BFD0076683A /* iconfont */,
+				C1E65CC625624BFD0076683A /* icons */,
+				C1E65CC725624BFD0076683A /* scripts */,
+				C1E65CC825624BFD0076683A /* level-api */,
+				C1E65CC925624BFD0076683A /* manifest.json */,
+				C1E65CCA25624BFD0076683A /* help.htm */,
+				C1E65CCB25624BFD0076683A /* popup.htm */,
+			);
+			name = Resources;
+			path = "EarSoft Level Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E65C9825624BFB0076683A /* EarSoft Level */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E65CBD25624BFC0076683A /* Build configuration list for PBXNativeTarget "EarSoft Level" */;
+			buildPhases = (
+				C1E65C9525624BFB0076683A /* Sources */,
+				C1E65C9625624BFB0076683A /* Frameworks */,
+				C1E65C9725624BFB0076683A /* Resources */,
+				C1E65CBC25624BFC0076683A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E65CAE25624BFC0076683A /* PBXTargetDependency */,
+			);
+			name = "EarSoft Level";
+			productName = "EarSoft Level";
+			productReference = C1E65C9925624BFB0076683A /* EarSoft Level.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1E65CAA25624BFC0076683A /* EarSoft Level Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E65CB925624BFC0076683A /* Build configuration list for PBXNativeTarget "EarSoft Level Extension" */;
+			buildPhases = (
+				C1E65CA725624BFC0076683A /* Sources */,
+				C1E65CA825624BFC0076683A /* Frameworks */,
+				C1E65CA925624BFC0076683A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EarSoft Level Extension";
+			productName = "EarSoft Level Extension";
+			productReference = C1E65CAB25624BFC0076683A /* EarSoft Level Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E65C9125624BFB0076683A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C1E65C9825624BFB0076683A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C1E65CAA25624BFC0076683A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = C1E65C9425624BFB0076683A /* Build configuration list for PBXProject "EarSoft Level" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E65C9025624BFB0076683A;
+			productRefGroup = C1E65C9A25624BFB0076683A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E65C9825624BFB0076683A /* EarSoft Level */,
+				C1E65CAA25624BFC0076683A /* EarSoft Level Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E65C9725624BFB0076683A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E65CA525624BFC0076683A /* Assets.xcassets in Resources */,
+				C1E65CA125624BFB0076683A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E65CA925624BFC0076683A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E65CD325624BFD0076683A /* level-api in Resources */,
+				C1E65CD025624BFD0076683A /* iconfont in Resources */,
+				C1E65CD225624BFD0076683A /* scripts in Resources */,
+				C1E65CCE25624BFD0076683A /* images in Resources */,
+				C1E65CD425624BFD0076683A /* manifest.json in Resources */,
+				C1E65CCF25624BFD0076683A /* _metadata in Resources */,
+				C1E65CD125624BFD0076683A /* icons in Resources */,
+				C1E65CD625624BFD0076683A /* popup.htm in Resources */,
+				C1E65CCD25624BFD0076683A /* css in Resources */,
+				C1E65CD525624BFD0076683A /* help.htm in Resources */,
+				C1E65CCC25624BFD0076683A /* background.htm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E65C9525624BFB0076683A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E65CA325624BFB0076683A /* ViewController.swift in Sources */,
+				C1E65C9E25624BFB0076683A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E65CA725624BFC0076683A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E65CB425624BFC0076683A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1E65CAE25624BFC0076683A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E65CAA25624BFC0076683A /* EarSoft Level Extension */;
+			targetProxy = C1E65CAD25624BFC0076683A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1E65C9F25624BFB0076683A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E65CA025624BFB0076683A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E65CB725624BFC0076683A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1E65CB825624BFC0076683A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C1E65CBA25624BFC0076683A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EarSoft Level Extension/EarSoft_Level_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "EarSoft Level Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.earsoft.EarSoft-Level-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1E65CBB25624BFC0076683A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EarSoft Level Extension/EarSoft_Level_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "EarSoft Level Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.earsoft.EarSoft-Level-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C1E65CBE25624BFC0076683A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EarSoft Level/EarSoft_Level.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "EarSoft Level/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.earsoft.EarSoft-Level";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1E65CBF25624BFC0076683A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EarSoft Level/EarSoft_Level.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PJFWYG4DT3;
+				INFOPLIST_FILE = "EarSoft Level/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.earsoft.EarSoft-Level";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E65C9425624BFB0076683A /* Build configuration list for PBXProject "EarSoft Level" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E65CB725624BFC0076683A /* Debug */,
+				C1E65CB825624BFC0076683A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E65CB925624BFC0076683A /* Build configuration list for PBXNativeTarget "EarSoft Level Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E65CBA25624BFC0076683A /* Debug */,
+				C1E65CBB25624BFC0076683A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E65CBD25624BFC0076683A /* Build configuration list for PBXNativeTarget "EarSoft Level" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E65CBE25624BFC0076683A /* Debug */,
+				C1E65CBF25624BFC0076683A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E65C9125624BFB0076683A /* Project object */;
+}

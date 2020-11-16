@@ -1,0 +1,432 @@
+/* minified CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* FIXES */
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1px;
+}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #444;
+	background-color: #fff;
+}
+
+b,strong {
+	font-weight: bold;
+}
+
+i,em {
+	font-style: italic;
+}
+
+p {
+	margin: 0.33em 0;
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	font-weight: normal;
+	background-color: #ffd500;
+	padding: .3em;
+	margin: 0;
+}
+
+/* General classes */
+
+.hidden { 
+	display: none;
+}
+
+.main {
+	padding: 2em 2em 0 2em;
+	min-width: 40em;
+	right: 0;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.intro {
+	padding: 0;
+	margin: 0 0 0 0;
+	overflow: hidden;	
+}
+
+.intro p {
+	margin: 0em 0 1.5em 0;
+	font-size: .8em;
+	text-align: center;
+	font-style: italic;
+	color: #aaa;
+}
+
+.iconfont:before {
+	vertical-align: -.075em;
+}
+
+.step_title {
+	margin-bottom: 1em;
+}
+
+.step_title .step {
+	text-align: center;
+	font-size: 1.75em;
+	font-weight: bold;
+	padding: .5em 0;
+}
+
+.step_title #step_title1 {
+	background: url(../images/arrow_l.png) center center no-repeat;
+}
+.step_title #step_title2 {
+	background: url(../images/arrow_r.png) center center no-repeat;
+}
+.step_title #step_title3 .arrow_l {
+	background: url(../images/arrow_sl.png) center center no-repeat;
+	width: 129px;
+	height: 71px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.step_title #step_title3 .arrow_r {
+	background: url(../images/arrow_sr.png) center center no-repeat;
+	width: 129px;
+	height: 71px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.step_title #step_title4 .arrow_l {
+	background: url(../images/arrow_sr.png) center center no-repeat;
+	width: 129px;
+	height: 71px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .5em;
+}
+.step_title #step_title4 .arrow_r {
+	background: url(../images/arrow_sl.png) center center no-repeat;
+	width: 129px;
+	height: 71px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .5em;
+}
+
+
+.level_container {
+	position: relative;
+}
+
+#level {
+	border: 0px none;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	height: 150px;
+	max-width: 1000px;
+	outline: 0;
+}
+
+#no_webgl {
+	display: none;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #900;
+	margin-top: 2em;
+}
+
+.level_disabled {
+	position: absolute;
+	display: none;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	cursor: default;
+}
+
+.level_container .table {
+	display: table;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.level_container .table_row {
+	display: table-row;
+}
+
+.level_container .table_cell {
+	vertical-align: middle;
+	display: table-cell;	
+	min-width: 2em;
+	border: none;
+}
+
+.level_container .table_cell.middle {
+	width: 100%;
+	padding: 0 1em 0 0;
+	text-align: center;
+}
+
+.level_container .iconfont {
+	font-size: 2.5em;
+	color: #444;
+	opacity: 0.5;
+}
+
+
+
+
+.step_desc {
+	text-align: center;
+	width: 100%;
+	margin: 1em auto 1em auto;
+	font-size: 1.3em;
+}
+
+.step_desc .button_list {
+	margin-left: .5em;
+}
+
+.step_desc .keybutton {
+	border: 2px solid #bbb;
+	padding: .1em .3em;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	box-shadow: inset rgba(0,0,0,.1) -.05em -.05em .05em,inset rgba(255,255,255,1) .1em .1em .1em;
+	min-width: 1.5em;
+	display: inline-block;
+	font-size: .8em;
+}
+
+.step_desc .checked {
+	position: absolute;
+}
+
+.step_desc .checked .text {
+	display: none;
+}
+
+.step_desc .checked .iconfont {
+	margin-left: .75em;
+	color: green;
+}
+
+
+
+
+#step_title5 .pre_button {
+	height: 2em;
+}
+
+#step_title5 a {
+	margin: 0;
+	border: 6px solid #444;
+	padding: 0.25em 1em;
+	display: inline-block;
+	color: #444;
+	width: auto;
+	background-color: #ffd500;
+	border-radius: .8em;
+	box-shadow: inset rgba(255,255,255,1) 0em .5em 1.5em;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#step_title5 a:hover {
+	box-shadow: inset rgba(255,255,255,1) 0em .5em 0.75em;
+	border-color: #333;
+}
+
+#step_title5 .learn_more {
+	text-align: center;
+	font-size: .6em;
+	margin: 2em 0;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+#step_title5 .learn_more span {
+	cursor: pointer;
+}
+
+#step_desc5 {
+	font-size: .8em;
+}
+
+#step_desc5 .left {
+	width: 50%;
+	overflow: hidden;
+	float: left;
+	text-align: left;
+}
+
+#step_desc5 .right {
+	width: 40%;
+	margin-left: 60%;
+	overflow: hidden;
+	text-align: left;
+}
+
+#step_desc5 .text {
+	font-size: 0.8em;
+	text-align: justify;
+	display: block;
+	height: 3em;
+	color: #aaa;
+	font-style: italic;
+}
+
+#shortcuts {
+	border-collapse: separate;
+	margin: 0;
+	width: 100%;
+	font-style: normal;
+}
+
+#shortcuts th,
+#shortcuts td {
+	padding: 0 1em;
+	text-align: left;
+}
+
+#shortcuts th {
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	font-size: .9em;
+}
+
+#shortcuts td {
+	line-height: 2em;
+}
+
+#shortcuts .func {
+	position: relative;
+}
+
+#shortcuts .func .desc {
+	margin-right: 2em;
+}
+
+#shortcuts .key_checked {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: green;
+}
+
+#shortcuts .key_checked .text {
+	display: none;	
+}
+
+
+
+/* Presets */
+
+#step_desc5 .right h3 {
+	padding: 0 1em;
+	text-align: left;
+}
+
+#step_desc5 .right h3 {
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	font-size: .9em;
+}
+
+#presets {
+}
+
+#presets li {
+	padding: 0 1em;
+	position: relative;
+	cursor: pointer;
+}
+
+#presets .title {
+	line-height: 2em;
+}
+#presets li.open {
+	background-color: #f5f5f5;
+	color: #444;
+}
+#presets li .info {
+	display: none;
+	font-size: .7em;
+	margin: -1em 0 0 0;
+	padding: .5em 0;
+	font-style: italic;
+	line-height: 1.5;
+	color: #777;
+}
+
+
+.step_nav {
+	text-align: center;
+	color: #ccc;
+	margin: 0 0 2em 0;
+}
+
+.step_nav .iconfont {
+	margin: 0 .2em;
+}
+
+.step_nav .icon-dot {
+	cursor: pointer;
+}
+
+
+/* Footer */
+
+#footer {
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	background: url(../images/earsoft-small.png) 20px center no-repeat;
+	vertical-align: bottom;
+	position: relative;
+	width: 100%;
+}
+
+#footer .copy {
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+	font-size: .8em;
+	color: #aaa;
+}

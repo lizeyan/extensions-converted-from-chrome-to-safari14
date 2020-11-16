@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "background.htm"
+   },
+   "browser_action": {
+      "default_icon": "icons/128.png",
+      "default_popup": "popup.htm",
+      "default_title": "EarSoft Level"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [  ],
+      "js": [ "level-api/api-release.js", "scripts/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Level stops sound going too loud or quiet while keeping all the excitement intact.",
+   "homepage_url": "http://earsoft.co.uk/level/",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqlT3NDyRosMX7XuZaEu/F2DE7hY2dI6+IprTR24jYaU428s3OLoAWaJto3oW0HXoVPpcZchuNML5rsud33o06cGNZ4AN0cQiFtMvf3LsNLO03Gr9BnHVSjIqQEkAPxCBUg++drM3ABg+TSoRc59SnBOo9mtdJuKMxOWR4diezipU8aC+ITX1NfLLlQvc2akc+Zl4f09rCUesbG+YG+DXOpn0nvQ7sronRpOnNq780HIFytO/jonVHaH4cdhn7j3yiT6/ZB4SpdSaDt2KrRi65y3SvryI4yCWboCf4jgoPH9Qdlb0YBWvkY7+6O7fTH1BvbVRD2yxPKXh+dmotj1pFwIDAQAB",
+   "manifest_version": 2,
+   "name": "EarSoft Level",
+   "permissions": [ "tabs", "storage", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.3",
+   "web_accessible_resources": [ "level-api/api-release.js" ]
+}

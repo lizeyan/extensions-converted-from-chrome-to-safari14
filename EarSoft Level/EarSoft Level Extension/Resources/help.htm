@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>EarSoft Level Help</title>
+        <link type="text/css" rel="stylesheet" href="css/help.css">
+		<link type="text/css" rel="stylesheet" href="iconfont/style.css">
+        <script type="text/javascript" src="scripts/analytics.js"></script>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="level-api/api-release.js"></script>
+        <script type="text/javascript" src="scripts/content.js"></script>
+        <script type="text/javascript" src="scripts/help.js"></script>
+    </head>
+
+    <body>
+		<h1>Level <b>Help</b></h1>
+		
+		<div class="main clearfix">
+			<div class="intro step5_hide_default no_toggle">
+				<p>Move the slider by holding down the left mouse button, then move the slider and release the mouse button.<br /> Change the dynamic range by double clicking the control.</p>
+			</div>
+
+			<div class="step_title">
+				<div id="step_title1" class="step">Reduce loud sounds</div>
+				<div id="step_title2" class="step hidden">Increase quiet sounds</div>
+				<div id="step_title3" class="step hidden"><span class="arrow_l"></span>Wide<span class="arrow_r"></span></div>
+				<div id="step_title4" class="step hidden"><span class="arrow_l"></span>Narrow<span class="arrow_r"></span></div>
+				<div id="step_title5" class="step hidden">
+					<div class="pre_button step5_show_default"></div>
+					<a href="http://www.youtube.com" title="Try some videos" target="_blank">Use Level</a>
+					<div class="learn_more step5_show_default"><span>Learn more (shortcuts and example settings)</span></div>
+				</div>
+			</div>
+
+			<div class="level_container step5_hide_default">
+				<div class="level_disabled"></div>
+				<div class="table">
+					<div class="table_row">
+						<div class="table_cell left">
+							<span class="iconfont icon-silent"></span>
+						</div>
+						<div class="table_cell middle">
+							<canvas id="level"></canvas>	
+						</div>
+						<div class="table_cell right">
+							<span class="iconfont icon-loud"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="no_webgl">
+				<span class="iconfont icon-notice"></span>
+				<span class="text">Your Browser doesn't support WebGL!</span>
+			</div>
+
+			<div class="step_desc clearfix">
+				<div id="step_desc1" class="step">
+					<span class="text">Slide down so that you won't annoy the neighbours
+						<span class="button_list">
+							<span class="keybutton"><span class="iconfont icon-key-left"></span></span>
+						</span>
+					</span>
+					<span class="checked hidden">
+						<span class="iconfont icon-done" title="Done"></span>
+						<span class="text">Done</span>
+					</span>
+				</div>
+
+				<div id="step_desc2" class="step hidden">
+					<span class="text">Slide up to hear over background noise
+						<span class="button_list">
+							<span class="keybutton"><span class="iconfont icon-key-right"></span></span>
+						</span>
+					</span>
+					<span class="checked hidden">
+						<span class="iconfont icon-done" title="Done"></span>
+						<span class="text">Done</span>
+					</span>
+				</div>
+
+				<div id="step_desc3" class="step hidden">
+					<span class="text">Set the dynamic range to wide (double click) to enjoy the full dynamic range of your audio
+						<span class="button_list">
+							<span class="keybutton">3</span>
+							<span class="keybutton">4</span>
+							<span class="keybutton"><span class="iconfont icon-key-up"></span></span>
+						</span>
+					</span>
+					<span class="checked hidden">
+						<span class="iconfont icon-done" title="Done"></span>
+						<span class="text">Done</span>
+					</span>
+				</div>
+
+				<div id="step_desc4" class="step hidden">
+					<span class="text">Set the dynamic range to small (double click) to hear all sound in a focused range						
+						<span class="button_list">
+							<span class="keybutton">1</span>
+							<span class="keybutton">2</span>
+							<span class="keybutton"><span class="iconfont icon-key-down"></span></span>
+						</span>
+					</span>
+					<span class="checked hidden">
+						<span class="iconfont icon-done" title="Done"></span>
+						<span class="text">Done</span>
+					</span>
+				</div>
+
+				<div id="step_desc5" class="step hidden">
+					<div class="step5_hide_default">
+						<div class="left">
+							<span class="text">When level is focused, you can use keyboard shortcuts to move/change the slider:</span>
+
+							<table id="shortcuts">
+								<tr>
+									<th>Key</th>
+									<th>Function</th>
+								</tr>
+								<tr class="entry arrow_lr">
+									<td class="key">Left/Right arrow</td>
+									<td class="func">
+										<span class="desc">Move the slider</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+								<tr class="entry arrow_ud">
+									<td class="key">Up/Down arrow</td>
+									<td class="func">
+										<span class="desc">Change the dynamic range</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+								<tr class="entry one">
+									<td class="key">1</td>
+									<td class="func">
+										<span class="desc">Switch to small range</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+								<tr class="entry two">
+									<td class="key">2</td>
+									<td class="func">
+										<span class="desc">Switch to mid range</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+								<tr class="entry three">
+									<td class="key">3</td>
+									<td class="func">
+										<span class="desc">Switch to wide range</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+								<tr class="entry four">
+									<td class="key">4</td>
+									<td class="func">
+										<span class="desc">Switch to full range</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+								<tr class="entry mute">
+									<td class="key">M</td>
+									<td class="func">
+										<span class="desc">Toggle Mute</span>
+										<span class="key_checked hidden">
+											<span class="iconfont icon-check" title="Done"></span>
+											<span class="text">Done</span>
+										</span>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div class="right">
+							<span class="text">Here are some example settings to play with:</span>
+
+							<h3>Example settings</h3>
+							<ul id="presets">
+								<li class="silence">						
+									<div class="title">Silence</div>
+									<div class="info">Mute</div>						
+								</li>
+								<li class="neighbours">						
+									<div class="title">Don't annoy the neighbours</div>
+									<div class="info">Constantly quiet but audible</div>						
+								</li>
+								<li class="noise">						
+									<div class="title">Hear over noise</div>
+									<div class="info">Constant loud</div>						
+								</li>
+								<li class="maximum">						
+									<div class="title">Constantly maximum</div>
+									<div class="info">Party!</div>						
+								</li>
+								<li class="easy">						
+									<div class="title">Easy listening</div>
+									<div class="info">Constant loudness / Zero range</div>						
+								</li>
+								<li class="standard">						
+									<div class="title">Standard listening</div>
+									<div class="info">Some variation but not too much, the TV standard range</div>						
+								</li>
+								<li class="wide">						
+									<div class="title">Wide</div>
+									<div class="info">Cinema grade variation</div>						
+								</li>
+								<li class="full">						
+									<div class="title">Full range</div>
+									<div class="info">The full dynamic range possible from your system (Reference)</div>						
+								</li>
+							</ul>
+						</div>		
+
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		
+		
+		<div class="step_nav">
+			<span id="goto1" class="iconfont icon-dot-selected" title="Reduce loud sounds"></span>
+			<span id="goto2" class="iconfont icon-dot" title="Increase quiet sounds"></span>
+			<span id="goto3" class="iconfont icon-dot" title="Wide"></span>
+			<span id="goto4" class="iconfont icon-dot" title="Narrow"></span>
+			<span id="goto5" class="iconfont icon-dot" title="Use Level"></span>
+		</div>
+		
+		<audio></audio>
+		
+		<div id="footer">
+			<a class="copy" href="http://earsoft.co.uk" target="_blank">&copy;2014 EarSoft</a>
+		</div>
+    </body>
+</html>

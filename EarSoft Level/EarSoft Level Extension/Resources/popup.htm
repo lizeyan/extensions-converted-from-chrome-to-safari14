@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>EarSoft Level</title>
+        <link type="text/css" rel="stylesheet" href="css/popup.css">
+		<link type="text/css" rel="stylesheet" href="iconfont/style.css">
+        <script type="text/javascript" src="scripts/analytics.js"></script>
+        <script type="text/javascript" src="level-api/api-release.js"></script>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="scripts/popup.js"></script>
+    </head>
+
+    <body>
+		<div id="level_disabled">Disabled</div>
+		
+		<canvas id="level"></canvas>
+		<div id="no_webgl">
+			<span class="iconfont icon-notice"></span>
+			<span class="text">Your Browser doesn't support WebGL!</span>
+		</div>
+		
+		<div id="notice">
+			<div class="no_html5 hidden">
+				<span class="iconfont icon-notice"></span>
+				<span class="text">No HTML5 content</span>
+			</div>
+		</div>
+				
+		<div id="settings" class="clearfix">
+			<div class="checklist">
+				<span class="check">
+					<input type="checkbox" name="cb_solo" id="cb_solo" />
+					<label for="cb_solo">Mute other tabs</label>
+				</span>
+				<span class="check">
+					<input type="checkbox" name="cb_all" id="cb_all" checked="checked" />
+					<label for="cb_all">Synchronise levels across all tabs</label>
+				</span>
+
+				<span class="check">
+					<input type="checkbox" name="cb_bypass" id="cb_bypass" />
+					<label for="cb_bypass">Bypass Level</label>
+				</span>	
+			</div>
+			
+			<div class="buffer_size">
+				<h2>Buffer size</h2>
+				<p>Decrease the buffer size if your audio is out of sync with your video.
+					Increase the buffer size if you are hearing audio glitches.</p>
+				<div class="select">
+					<label for="frame_size">Buffer size:</label>
+					<select name="frame_size" id="frame_size">
+						<option value="2048">2048 Samples</option>
+						<option value="4096" selected="selected">4096 Samples</option>
+						<option value="8192">8192 Samples</option>
+						<option value="16384">16384 Samples</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<a href="#" id="settings_link">
+				<span class="iconfont icon-settings"></span>
+				<span class="text">Settings</span>
+				<span class="iconfont arrow icon-arrow-down"></span>
+			</a>
+			<span class="link_sep"></span>
+			<a href="#" id="help_link">
+				<span class="iconfont icon-help"></span>
+				<span class="text">Help</span>
+			</a>
+			<span class="link_sep"></span>
+			<a href="https://docs.google.com/forms/d/1rvp0TAxwAi5M0cnb-rcf9NSZoENkoY9dOeoLTPSlTVY/viewform" id="feedback_link" target="_blank">
+				<span class="iconfont icon-feedback"></span>
+				<span class="text">Feedback</span>
+			</a>
+			<a href="http://earsoft.co.uk" id="copy" target="_blank">&copy;2014 EarSoft</a>
+		</div>
+    </body>
+</html>

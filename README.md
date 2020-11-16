@@ -14,3 +14,4 @@ grep "notion" */*/manifest.json
 | Aria2 for Safari | No. It cannot capture downloading event |
 | Notion Web Clipper | Yes |
 | Sourcegraph | Not working |
+| EarSoft Level | Not working |
